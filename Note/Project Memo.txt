@@ -1,0 +1,15 @@
+I used BeautifulSoup, a Python Librabry tp scrap data on the Top 250 movies.
+
+I parse the HTMl file and extractred the text in the website's front-end code. I then appended the scrapped data
+-Movie title
+-Movie date
+-Movie rating
+-Movie Rank
+
+using data and saved them into an excel file for futher editing.
+
+I formatted hte borders of the excel cells to fit in data
+I used Find & Replace to remove () in the Date column.
+
+I then imported the excel file as queries in a model in PoeerBi 
+

@@ -1,0 +1,23 @@
+I used BeautifulSoup, a Python Librabry tp scrap data on the Top 250 movies.
+
+I parse the HTMl file and extractred the text in the website's front-end code. I then appended the scrapped data
+-Movie title
+-Movie date
+-Movie rating
+-Movie Rank
+
+using data and saved them into an excel file for futher editing.
+
+I formatted hte borders of the excel cells to fit in data
+I used Find & Replace to remove () in the Date column.
+
+I then saved as an CSV file and imported as a table on MySQL Workbench
+Extracted top movies 1-10 in the year 2000 below and 2000 above and sorted by their ratings
+So we can which century has the most rated movies
+
+and i then plotted a bar chart to show the diffrence
+
+i then used a graded excel file to show how much % of both the to pmovies and tv series fall undet a specific grde
+
+I then imported the excel file as queries in a model in PoeerBi 
+

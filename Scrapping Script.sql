@@ -1,0 +1,1 @@
+SELECT * FROM movies.top_rated_movies;

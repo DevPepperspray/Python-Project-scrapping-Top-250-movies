@@ -1,0 +1,22 @@
+Scrapping with Python using BeautifulSoup
+
+-pip install module_name
+-pip install requests
+-pip install BeautifulSoup
+
+from bs4 import BeautifulSoup
+import requests
+
+url 
+source = requests.get('url')
+
+soup = BeautifulSoup(source.text, 'html.parse')
+
+Top rated 3-5
+Most watched genre
+
+Service: Mysql@localhost:3306
+User: root
+
+
+
